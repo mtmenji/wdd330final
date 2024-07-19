@@ -4,11 +4,12 @@ import Popular from '../Components/Popular/Popular'
 import Offers from '../Components/Offers/Offers'
 import NewCollections from '../Components/NewCollections/NewCollections'
 import NewsLetter from '../Components/NewsLetter/NewsLetter'
+import Weather from '../Components/Weather/Weather'
 
 const Shop = () => {
   return (
     <div>
-        <Hero/>
+        <Weather/>
         <Popular/>
         <Offers/>
         <NewCollections/>

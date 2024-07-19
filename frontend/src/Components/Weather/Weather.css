@@ -1,0 +1,118 @@
+.weather {
+    padding: 20px;
+    background: linear-gradient(180deg, #7cdcff 0%, #7cdcff80 80%);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #090909;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .weather h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .weather p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .weather .temperature {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .weather .description {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  @media(max-width: 1280px) {
+    .weather {
+      padding: 15px;
+    }
+  
+    .weather h2 {
+      font-size: 22px;
+    }
+  
+    .weather p {
+      font-size: 16px;
+    }
+  
+    .weather .temperature {
+      font-size: 20px;
+    }
+  
+    .weather .description {
+      font-size: 18px;
+    }
+  }
+  
+  @media(max-width: 1024px) {
+    .weather {
+      padding: 10px;
+    }
+  
+    .weather h2 {
+      font-size: 20px;
+    }
+  
+    .weather p {
+      font-size: 14px;
+    }
+  
+    .weather .temperature {
+      font-size: 18px;
+    }
+  
+    .weather .description {
+      font-size: 16px;
+    }
+  }
+  
+  @media(max-width: 800px) {
+    .weather {
+      padding: 8px;
+    }
+  
+    .weather h2 {
+      font-size: 18px;
+    }
+  
+    .weather p {
+      font-size: 12px;
+    }
+  
+    .weather .temperature {
+      font-size: 16px;
+    }
+  
+    .weather .description {
+      font-size: 14px;
+    }
+  }
+  
+  @media(max-width: 500px) {
+    .weather {
+      padding: 5px;
+    }
+  
+    .weather h2 {
+      font-size: 16px;
+    }
+  
+    .weather p {
+      font-size: 10px;
+    }
+  
+    .weather .temperature {
+      font-size: 14px;
+    }
+  
+    .weather .description {
+      font-size: 12px;
+    }
+  }  
